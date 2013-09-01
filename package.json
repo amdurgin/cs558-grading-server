@@ -1,0 +1,22 @@
+{
+  "author": "Alexander Durgin",
+  "name": "cs558-grading-server",
+  "version": "1.0.0",
+  "description": "CS558 Grading Server.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amdurgin/cs558-grading-server"
+  },
+  "engine": {
+    "node": "*"
+  },
+  "directories": {
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cs558-db": "*",
+    "cs558-submission-handler": "*",
+    "cs558-grader": "*"
+  }
+}
